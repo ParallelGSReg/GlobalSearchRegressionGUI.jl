@@ -1,11 +1,23 @@
-# global-search-regression
+# GlobalSearchRegressionGUI
+
+## Intallation
+``` julia
+pkg> add https://github.com/ParallelGSReg/GlobalSearchRegressionGUI.jl
+pkg> add Mux#99ce1fa
+```
+
+## How to use
+``` julia
+using GlobalSearchRegressionGUI
+gui()
+```
 
 > GSReg is an automatic model selection command for time series, cross-section and panel data regressions. 
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# install depedencies
 npm install
 
 # serve with hot reload at localhost:8080
