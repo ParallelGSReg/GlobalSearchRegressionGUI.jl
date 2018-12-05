@@ -1,4 +1,5 @@
 # GlobalSearchRegressionGUI
+> GSReg is an automatic model selection command for time series, cross-section and panel data regressions. 
 
 ## Intallation
 ``` julia
@@ -11,8 +12,6 @@ pkg> add Mux#99ce1fa
 using GlobalSearchRegressionGUI
 gui()
 ```
-
-> GSReg is an automatic model selection command for time series, cross-section and panel data regressions. 
 
 ## Build Setup
 
