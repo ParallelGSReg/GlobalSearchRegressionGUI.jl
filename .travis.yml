@@ -5,15 +5,7 @@ sudo: false
 os:
   - linux
 julia:
-  - 1.1
-  - nightly
-
-matrix:
-  allow_failures:
-    - julia: nightly
+  - 1.0
 
 notifications:
   email: false
-
-after_success:
-  - julia -e 'using Pkg; cd(Pkg.dir("GlobalSearchRegressionGUI"))'
