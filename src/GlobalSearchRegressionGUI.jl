@@ -2,7 +2,9 @@ module GlobalSearchRegressionGUI
 using GlobalSearchRegression, HTTP, WebSockets, DataStructures, Mux, JSON, CSV, Pkg, Distributed, UUIDs, Base64
 
 const SERVER_BASE_DIR = "../front/dist"
-const GSREG_VERSION = Pkg.installed()["GlobalSearchRegression"]
+const INSTALLED_PACKAGES = Pkg.installed()
+const GSREG_VERSION = ( haskey(INSTALLED_PACKAGES, "GlobalSearchRegression") ) ? INSTALLED_PACKAGES["GlobalSearchRegression"] : v"1.0.3"
+
 
 mutable struct GSRegJob
     file # tempfile of data
