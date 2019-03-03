@@ -3,8 +3,7 @@
 
 ## Intallation
 ``` julia
-pkg> add https://github.com/ParallelGSReg/GlobalSearchRegressionGUI.jl
-pkg> add Mux#99ce1fa
+pkg> add GlobalSearchRegressionGUI
 ```
 
 ## How to use
