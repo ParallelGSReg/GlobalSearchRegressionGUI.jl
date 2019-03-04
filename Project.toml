@@ -1,7 +1,7 @@
 name = "GlobalSearchRegressionGUI"
 uuid = "a066f67d-7bb6-5c78-aee2-fe6a6ddc0b62"
 authors = ["Demian Panigo <panigo@gmail.com>", "Valentin Mari <valentinmari@hotmail.com>", "Adán Mauri Ungaro <adan.mauri@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
