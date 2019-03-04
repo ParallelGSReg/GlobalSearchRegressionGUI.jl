@@ -6,8 +6,3 @@ HTTP 0.7.1
 JSON 0.20.0
 Mux 0.6.0
 WebSockets 1.1.0
-Base64
-Distributed
-Pkg
-Test
-UUIDs
