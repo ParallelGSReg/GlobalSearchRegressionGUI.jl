@@ -1,5 +1,5 @@
 # GlobalSearchRegressionGUI [![Build Status](https://travis-ci.org/ParallelGSReg/GlobalSearchRegressionGUI.jl.svg?branch=master)](https://travis-ci.org/ParallelGSReg/GlobalSearchRegressionGUI.jl)
-> GSReg is an automatic model selection command for time series, cross-section and panel data regressions. 
+> GlobalSearchRegressionGUI is the graphic user interface of [GlobalSearchRegression](https://github.com/ParallelGSReg/GlobalSearchRegression.jl), an automatic model selection julia package for time series, cross-section and panel data regressions which performs all-subset regressions under an efficient parallel computing environement.
 
 ## Intallation
 ``` julia
