@@ -352,7 +352,7 @@ function gui(;openbrowser=true, port=45872, cloud=false, log=false)
     schedule(Task(consume_job_queue))
 
     @app app = (
-        stack(Mux.todict, logRequest, Mux.splitquery, errorCatch, authHeader, Mux.toresponse),
+        Mux.stack(Mux.todict, logRequest, Mux.splitquery, errorCatch, authHeader, Mux.toresponse),
         page("/info", respond("<h1>info</h1>")),
         page("/upload", req -> toJsonWithCors(upload(req), req)),
         page("/server-info", req -> toJsonWithCors(server_info(req), req)),
