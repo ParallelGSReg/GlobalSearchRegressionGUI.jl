@@ -3,7 +3,7 @@ using GlobalSearchRegression, HTTP, WebSockets, DataStructures, Mux, JSON, CSV, 
 
 const SERVER_BASE_DIR = "../front/dist"
 const INSTALLED_PACKAGES = Pkg.installed()
-const GSREG_VERSION = ( haskey(INSTALLED_PACKAGES, "GlobalSearchRegression") ) ? INSTALLED_PACKAGES["GlobalSearchRegression"] : v"1.0.3"
+const GSREG_VERSION = ( haskey(INSTALLED_PACKAGES, "GlobalSearchRegression") ) ? INSTALLED_PACKAGES["GlobalSearchRegression"] : v"1.0.6"
 
 
 mutable struct GSRegJob
