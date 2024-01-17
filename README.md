@@ -1,5 +1,5 @@
 # GlobalSearchRegressionGUI [![Build Status](https://travis-ci.org/ParallelGSReg/GlobalSearchRegressionGUI.jl.svg?branch=master)](https://travis-ci.org/ParallelGSReg/GlobalSearchRegressionGUI.jl)
-> GlobalSearchRegressionGUI is the graphic user interface of [GlobalSearchRegression](https://github.com/ParallelGSReg/GlobalSearchRegression.jl), an automatic model selection julia package for time series, cross-section and panel data regressions which performs all-subset regressions under an efficient parallel computing environement.
+> GlobalSearchRegressionGUI is the graphic user interface of [GlobalSearchRegression](https://github.com/ParallelGSReg/GlobalSearchRegression.jl), an automatic model selection julia package for time series, cross-section and panel data regressions which performs all-subset regressions under an efficient parallel computing environment.
 
 ## Intallation
 ``` julia
@@ -15,7 +15,7 @@ gui()
 ## Build Setup
 
 ``` bash
-# install depedencies
+# install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
