@@ -1,3 +1,4 @@
+# Main code of GlobalSearchRegressionGUI.jl 
 module GlobalSearchRegressionGUI
 using GlobalSearchRegression, HTTP, WebSockets, DataStructures, Mux, JSON, CSV, Pkg, Distributed, UUIDs, Base64
 
